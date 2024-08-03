@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("../../../../assets/fonts/Inter-Bold.ttf") format("truetype");
+    font-family: "Inter-Regular";
+    src: url("../../../../assets/fonts/Inter-Regular.ttf") format("truetype");
+    font-family: "Inter-Light";
+    src: url("../../../../assets/fonts/Inter-Light.ttf") format("truetype");
+
+}
+
+a {
+    cursor: pointer;
+}
+
+.footer {
+    font-family: 'Inter-Light';
+    background-color: #007AC7;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #ccc;
+}
+
+.footer-section .fab {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.footer-contact {
+    text-align: left;
+}
+
+.footer-contact p {
+    margin-bottom: 5px;
+}
+
+.footer-copyright {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        margin: 20px 0;
+    }
+}
