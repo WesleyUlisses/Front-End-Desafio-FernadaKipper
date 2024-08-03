@@ -74,6 +74,7 @@ export class ContactModalComponent {
       let email = {
         message: this.getFormValue().message,
         email: this.getFormValue().email,
+        title: 'Contato',
         name: this.getFormValue().name,
         phoneNumber: this.getFormValue().phoneNumber,
       }
