@@ -1,0 +1,232 @@
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("../../../../assets/fonts/Inter-Bold.ttf") format("truetype");
+    font-family: "Inter-Regular";
+    src: url("../../../../assets/fonts/Inter-Regular.ttf") format("truetype");
+  }
+  
+
+.nav-wrapper {
+    background-color: #007AC7;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 0 2.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    align-items: center;
+    height: 5.625rem;
+    font-family: 'Inter-Bold';
+    font-size: 1rem;
+}
+
+.apoio-logo {
+    width: 7.625rem;
+    height: 7.625rem;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+}
+
+.nav-list-of-header-items {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item-header {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Inter-Bold';
+    font-size: 1rem;
+    cursor: pointer;
+
+    &:hover {
+        color: #049DD9;
+    }
+}
+
+.btn-volunteer-auth {
+    background-color: #FFFFFF;
+    color: #007AC7;
+    width: 9.375rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 1.25rem;
+    padding: 0.625rem 1.25rem;
+    font-family: 'Inter-Bold';
+    font-size: 1rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #ffffff;
+        color: #049DD9;
+    }
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+@media (max-width: 1166px) {
+    
+    .nav-list-of-header-items {
+        display: none;
+    }
+
+    .nav-wrapper {
+        justify-content: space-between;
+    }
+
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
+        font-size: 2rem;
+        color: #FFFFFF;
+    }
+
+    .hamburger-menu::before {
+        content: "";
+    }
+
+}
+
+.nav-list-of-header-items.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5.625rem;
+    right: 0;
+    background-color: #007AC7;
+    width: 25rem;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 0;
+
+    border-top: 0.125rem solid #FFFFFF;
+}
+
+
+@media (max-width: 768px) {
+
+
+    .nav-wrapper {
+        justify-content: space-between;
+    }
+
+
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
+        font-size: 2rem;
+        color: #FFFFFF;
+    }
+
+    .hamburger-menu::before {
+        content: "";
+    }
+
+}
+
+.nav-list-of-header-items.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5.625rem;
+    right: 0;
+    background-color: #007AC7;
+    width: 20rem;
+    height: calc(100vh - 5.625rem);
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 0;
+}
+
+
+@media (max-width: 514) {
+    .nav-list-of-header-items.open {
+        display: none;
+        
+    }
+
+    .nav-wrapper {
+        justify-content: space-between;
+    }
+
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
+        font-size: 2rem;
+        color: #FFFFFF;
+    }
+
+    .hamburger-menu::before {
+        content: "";
+    }
+
+    .item-header {
+        font-size: 0.9rem;
+    }
+
+    .nav-list-of-header-items.open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 5.625rem;
+        right: 0;
+        background-color: #007AC7;
+        width: 15rem;
+        height: calc(100vh - 5.625rem);
+        align-items: center;
+        gap: 1.5rem;
+        padding: 1rem 0;
+    }
+}
+
+@media (max-width: 484){
+
+    .nav-list-of-header-items.open {
+        display: none;
+        
+    }
+
+    .nav-wrapper {
+        justify-content: space-between;
+    }
+
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
+        font-size: 2rem;
+        color: #FFFFFF;
+    }
+
+    .hamburger-menu::before {
+        content: "";
+    }
+
+    .item-header {
+        font-size: 0.9rem;
+    }
+
+    .nav-list-of-header-items.open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 5.625rem;
+        right: 0;
+        background-color: #007AC7;
+        width: 100vh;
+        height: calc(100vh - 5.625rem);
+        align-items: center;
+        gap: 1.5rem;
+        padding: 1rem 0;
+    }
+}

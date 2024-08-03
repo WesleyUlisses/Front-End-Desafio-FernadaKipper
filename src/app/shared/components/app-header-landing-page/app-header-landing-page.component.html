@@ -1,0 +1,16 @@
+<nav class="nav-wrapper">
+    <a routerLink="/home" (click)="closeMenuIfIsOpen()">
+        <img src="../../../../assets/images/landing page/logo-apoio-ecocrise.svg" alt="Logo do Apoio Ecocrise"
+            class="apoio-logo" id="apoio-logo">
+    </a>
+    <div class="hamburger-menu" (click)="toggleMenu()">&#9776;</div>
+    <ul id="nav-list-of-header-items" class="nav-list-of-header-items right hide-on-med-and-down">
+        <li><a routerLink="/home" class="item-header" (click)="closeMenuIfIsOpen()" (click)="navigateTo('home')">Home</a></li>
+        <li><a href="#sobre" class="item-header" (click)="closeMenuIfIsOpen()">Sobre Nós</a></li>
+        <li><a routerLink="/alerta" class="item-header" (click)="closeMenuIfIsOpen()">Alerta e Evacuação</a></li>
+        <li><a routerLink="/apoio" class="item-header" (click)="closeMenuIfIsOpen()">Apoio Psicologico</a></li>
+        <li><a routerLink="/blog" class="item-header" (click)="closeMenuIfIsOpen()" (click)="navigateTo('blog')">Blog</a></li>
+        <li><a routerLink="/contato" class="item-header" (click)="closeMenuIfIsOpen()">Contato</a></li>
+        <button class="btn-volunteer-auth" (click)="closeMenuIfIsOpen()" (click)="navigateTo('login')">Voluntarios</button>
+    </ul>
+</nav>
