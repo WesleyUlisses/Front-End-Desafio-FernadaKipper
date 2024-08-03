@@ -8,6 +8,7 @@ import { authGuard } from '../../shared/services/guard/auth/auth.guard';
 import { ProfileComponent } from '../../user-portal/views/home/profile/profile.component';
 import { DashboardChartsComponent } from '../../user-portal/views/home/dashboard-charts/dashboard-charts.component';
 import { LandingPageComponent } from '../../shared/views/landing-page/landing-page.component';
+import { SupportYouPageComponent } from '../../shared/views/support-you-page/support-you-page.component';
 
 
 export const routes: Routes = [
@@ -22,5 +23,6 @@ export const routes: Routes = [
   ]
   },
   { path: 'new-password', component: NewPasswordScreenComponent },
+  {path: 'apoio', component: SupportYouPageComponent },
  
 ];
