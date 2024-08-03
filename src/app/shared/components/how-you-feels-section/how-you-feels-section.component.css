@@ -26,7 +26,8 @@
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    margin-top: 70px;
+    height: 40rem;
+    margin-top: 0px;
 }
 
 .call-image {
@@ -58,4 +59,56 @@
         transform: scale(1.1);
     }
 
+}
+
+@media (max-width: 1000px) {
+
+    .schedule-image {
+        width: 80%;
+    }
+
+    .call-image {
+        width: 80%;
+    }
+
+    .chat-image {
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .how-you-feels-wrapper div {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .schedule-image {
+        top: 0px;
+    }
+
+    .call-image {
+        top: 0px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .how-you-feels-wrapper div {
+        align-items: center;
+        align-items: center;
+    }
+
+    .schedule-image {
+        width: 70%;
+    }
+
+    .call-image {
+        width: 70%;
+    }
+
+    .chat-image {
+        width: 70%;
+    }
 }

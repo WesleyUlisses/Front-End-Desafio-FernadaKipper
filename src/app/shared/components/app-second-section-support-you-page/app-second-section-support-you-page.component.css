@@ -1,0 +1,117 @@
+/*<div class="second-section-support-you-wrapper">
+
+    <div class="second-section-support-content" >
+        <h1 class="second-section-support-you-tittle">
+            Como Funciona?
+        </h1>
+        <p>
+            Após um desastre, é fundamental ter acesso a suporte emocional e
+            psicológico para enfrentar os desafios.
+            Nosso programa de acolhimento oferece ajuda gratuita e acessível
+            para todos que precisam de apoio durante momentos difíceis.
+        </p>
+        <span>
+            Nos apoiamos com:
+        </span>
+        <p>
+            <span>Sessões de Acolhimento:</span> Encontre e agende sessões com profissionais e voluntários qualificados.
+        </p>
+
+        <p>
+            <span>Chat 24 Horas com IA:</span> Converse com nosso assistente virtual para suporte imediato e contínuo.
+        </p>
+
+        <p>
+            <span>Recursos Educativos:</span> Acesse artigos, vídeos e orientações para ajudar na recuperação emocional.
+        </p>
+    </div>
+
+    <img src="../../../../assets/images/landing page/24-7.svg" alt="Pessoas trabalhando 24 horas por 7 dias">
+</div>
+*/
+
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("../../../../assets/fonts/Inter-Bold.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url("../../../../assets/fonts/Inter-Regular.ttf") format("truetype");
+}
+
+.second-section-support-you-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 5%;
+    background-color: #ffffff;
+}
+
+.second-section-support-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 3.5rem;
+    width: 50%;
+}
+
+.second-section-support-you-tittle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #007AC7;
+    margin-bottom: 20px;
+    text-align: start;
+    font-family: 'Inter-Bold';
+    font-size: 2.25rem;
+}
+
+.second-section-support-you-tittle span {
+    color: #049DD9;
+}
+
+.second-section-support-content p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #496D86;
+    text-align: start;
+    font-family: 'Inter-Regular';
+}
+
+.second-section-support-content span {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #007AC7;
+    text-align: start;
+    font-family: 'Inter-Bold';
+}
+
+.second-section-support-content p span {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #496D86;
+    text-align: start;
+    font-family: 'Inter-Bold';
+}
+
+.second-section-support-you-wrapper img {
+    width: 50%;
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    .second-section-support-you-wrapper {
+        flex-direction: column;
+    }
+
+    .second-section-support-content {
+        width: 100%;
+    }
+
+    .second-section-support-you-wrapper img {
+        width: 100%;
+    }
+}
