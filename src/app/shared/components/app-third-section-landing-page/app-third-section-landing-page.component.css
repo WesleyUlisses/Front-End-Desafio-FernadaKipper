@@ -1,0 +1,315 @@
+/*<div class="third-section-wrapper">
+    <h1 class="third-section-tittle">O que você precisa?</h1>
+
+    <div class="third-section-content-wrapper">
+        <div class="item-content-wrapper">
+            <img src="../../../../assets/images/landing page/woman_comforting_crying.svg" alt="Mulher conforntando pessoa">
+            <div class="easy-modal-wrapper">
+                <p>Após um desastre, estamos aqui para ajudar você a lidar com as consequências emocionais e práticas.
+                    Com apoio oferece acesso a sessões de acolhimento e um chat 24/7 </p>
+                <button class="btn-third-section-help">
+                    Precisa de Apoio?
+                </button>
+            </div>
+        </div>
+        <div class="item-content-wrapper">
+            <img src="../../../../assets/images/landing page/alerting_to_get_out.svg" alt="Alerta de perigo">
+            <div class="easy-modal-wrapper">
+                <p>Nosso sistema de alerta e evacuação foi desenvolvido para manter você informado e seguro.
+                    Ao se cadastrar, você receberá atualizações sobre riscos</p>
+                <button class="btn-third-section-help">
+                    Inscreva-se! é simples
+                </button>
+            </div>
+        </div>
+    </div>
+</div>*/
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("../../../../assets/fonts/Inter-Bold.ttf") format("truetype");
+    font-family: "Inter-Regular";
+    src: url("../../../../assets/fonts/Inter-Regular.ttf") format("truetype");
+    font-family: "Inter-Medium";
+    font-family: ("../../../../assets/fonts/Inter-Medium") format("truetype");
+  }
+  
+    .third-section-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5% 5%;
+        gap: 3.5rem;
+        background-color: #007AC7;
+    }
+
+    .third-section-tittle {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #ffffff;
+        margin-bottom: 20px;
+        text-align: start;
+        font-family: 'Inter-Bold';
+        font-size: 2.25rem;
+    }
+
+    .third-section-content-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3.125rem;
+    }
+
+    .third-section-content-wrapper img {
+        width: 70%;
+    }
+
+    .third-section-content-wrapper div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .item-content-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .easy-modal-wrapper {
+        display: flex;
+        background-color: #ffffff;
+        width: 400px;
+        height: 200px;
+        padding: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.25rem;
+        border-radius: 8px;
+        position: relative;
+        top: -100px;
+    }
+
+    .third-section-content-wrapper p {
+        font-size: 1.125rem;
+        color: #049DD9;
+        font-family: 'Inter-Medium';
+    }
+    
+    .btn-third-section-help {
+        background-color: #007AC7;
+        width: 12.5rem;
+        height: 2.5rem;
+        font-size: 0.875rem;
+        color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        font-family: 'Inter-Bold';
+    }
+
+    .btn-third-section-help:hover {
+        background-color: #049DD9;
+    }
+
+
+    @media(max-width: 1450px) {
+        .third-section-content-wrapper div {
+            width: 50%;
+        }
+
+        .third-section-content-wrapper p {
+            font-size: 0.8rem;
+        }
+
+        .btn-third-section-help {
+            width: 10rem;
+            height: 2rem;
+            font-size: 0.6rem;
+        }
+    }
+
+
+    @media(max-width: 1200px) {
+        .third-section-content-wrapper div {
+            width: 50%;
+        }
+
+        .third-section-content-wrapper img {
+            width: 70%;
+        }
+
+        .easy-modal-wrapper {
+            width: 300px;
+            height: 150px;
+            position: relative;
+            top: -50px;
+        }
+
+        .third-section-content-wrapper p {
+            font-size: 0.75rem;
+        }
+
+        .btn-third-section-help {
+            width: 8rem;
+            height: 1.5rem;
+            font-size: 0.5rem;
+        }
+    }
+
+    @media(max-width: 1000px) {
+       
+        .third-section-content-wrapper {
+            flex-direction: column;
+            gap: 3.5rem;
+        }
+
+        .easy-modal-wrapper {
+            width: 300px;
+            height: 150px;
+            position: relative;
+            top: -50px;
+            padding: 10px;
+        }
+
+        .third-section-content-wrapper p {
+            font-size: 0.75rem;
+        }
+
+        .btn-third-section-help {
+            width: 8rem;
+            height: 1.5rem;
+            font-size: 0.5rem;
+        }
+    }
+
+    @media(max-width: 900px) {
+        .third-section-content-wrapper img {
+            width: 70%;
+        }
+
+        .easy-modal-wrapper {
+            width: 300px;
+            height: 150px;
+            position: relative;
+            top: -50px;
+            padding: 10px;
+        }
+
+        .third-section-content-wrapper p {
+            font-size: 0.75rem;
+        }
+
+        .btn-third-section-help {
+            width: 8rem;
+            height: 1.5rem;
+            font-size: 0.5rem;
+        }
+    }
+
+
+    @media(max-width: 800px) {
+        
+        .third-section-content-wrapper img {
+            width: 70%;
+        }
+
+        .easy-modal-wrapper {
+            width: 300px;
+            height: 150px;
+            position: relative;
+            top: -45px;
+            padding: 15px;
+        }
+
+        .third-section-content-wrapper p {
+            font-size: 0.6rem;
+        }
+
+        .btn-third-section-help {
+            width: 7rem;
+            height: 1.5rem;
+            font-size: 0.4rem;
+        }
+    }
+
+
+    @media(max-width: 530px) {
+
+        .third-section-tittle {
+            font-size: 1rem;
+        }
+
+        .third-section-content-wrapper img {
+            width: 100%;
+        }
+        
+        .third-section-content-wrapper {
+            gap: 0rem;
+        }
+        
+        .third-section-content-wrapper div {
+            width: 80%;
+        }
+        .easy-modal-wrapper {
+            width: 80%;
+            height: auto;
+            position: relative;
+            top: -30px;
+            padding: 10px;
+        }
+
+        .third-section-content-wrapper p {
+            font-size: 0.5rem;
+        }
+
+        .btn-third-section-help {
+            width: 7rem;
+            height: 0.7rem;
+            font-size: 0.4rem;
+            
+        }
+    }
+
+    @media(max-width: 320px) {
+
+        .third-section-tittle {
+            font-size: 1rem;
+        }
+
+        .third-section-content-wrapper img {
+            width: 100%;
+        }
+        
+        .third-section-content-wrapper {
+            gap: 0rem;
+        }
+        
+        .third-section-content-wrapper div {
+            width: 80%;
+        }
+        .easy-modal-wrapper {
+            width: 80%;
+            height: auto;
+            position: relative;
+            top: -30px;
+            padding: 10px;
+        }
+
+        .third-section-content-wrapper p {
+            font-size: 0.5rem;
+        }
+
+        .btn-third-section-help {
+            width: 7rem;
+            height: 0.7rem;
+            font-size: 0.4rem;
+        }
+
+
+    }
