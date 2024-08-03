@@ -1,12 +1,6 @@
 export const environment = {
   production: false,
   apiUrl: 'https://api-email-services-dev.onrender.com/api/',
-
-  // //       environment.awsS3.region,
-  // environment.awsS3.accessKeyId,
-  // environment.awsS3.secretAccessKey,
-  // environment.awsS3.bucketName,
-  // environment.awsS3.endpoint
   awsS3: {
     region: 'us-east-1',
     accessKeyId: 'accessKeyId',
@@ -14,6 +8,9 @@ export const environment = {
     bucketName: 'bucketName',
     endpoint: 'endpoint',
   },
+  mercadoPagoPaymentRedirectUrl: 'link.mercadopago.com.br/wesleyulisses',
+  mercadoPagoPublicKey: 'TEST-1b3b3b3b-1b3b-1b3b-1b3b-1b3b3b3b3b3b',
+  mercadoPagoBaseApiUrl: 'https://api.mercadopago.com'
 
 };
 
