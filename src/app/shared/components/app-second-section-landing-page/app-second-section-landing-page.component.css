@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("../../../../assets/fonts/Inter-Bold.ttf") format("truetype");
+    font-family: "Inter-Regular";
+    src: url("../../../../assets/fonts/Inter-Regular.ttf") format("truetype");
+  }
+  
+
+.second-section-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 5%;
+    background-color: #ffffff;
+}
+
+.second-section-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 5%;
+    width: 100%;
+}
+
+.second-section-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 3.5rem;
+    width: 50%;
+}
+
+.second-section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #007AC7;
+    margin-bottom: 20px;
+    text-align: start;
+    font-family: 'Inter-Bold';
+    font-size: 2.25rem;
+}
+
+.second-section-title span {
+    color: #049DD9;
+}
+
+.simple-item-wrapper-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 3.125rem;
+}
+
+.simple-item-wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 20px;
+    gap: 5%;
+}
+
+.simple-item-text-wrapper {
+    width: 100%;
+}
+
+.simple-item-image {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.simple-item-title {
+    font-size: 1.25rem;
+    color: #007AC7;
+    margin-bottom: 10px;
+    font-family: 'Inter-Bold';
+}
+
+
+.simple-item-text {
+    font-size: 1.25rem;
+    color: #496D86;
+    font-family: 'Inter-Regular';
+}
+
+.second-section-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.second-section-image {
+    width: 60%;
+    height: auto;
+}
+
+
+@media(max-width: 1100px){
+    .second-section-col {
+        width: 100%;
+    }
+
+    .second-section-row {
+        flex-direction: column;
+        gap: 3.5rem;
+    }
+    .second-section-title {
+        font-size: 2rem;
+    }
+
+}
+
+@media(max-width: 490px) {
+    .second-section-title {
+        font-size: 1.5rem;
+    }
+    .simple-item-title {
+        font-size: 0.9rem;
+    }
+    .simple-item-text {
+        font-size: 0.9rem;
+    }
+    .second-section-image-wrapper {
+        width: 100%;
+    }
+}
