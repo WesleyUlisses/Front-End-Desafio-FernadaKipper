@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("../../../../assets/fonts/Inter-Bold.ttf") format("truetype");
+    font-family: "Inter-Regular";
+    src: url("../../../../assets/fonts/Inter-Regular.ttf") format("truetype");
+}
+
+.join-us-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+    padding: 5% 5%;
+    background-color: #ffffff;
+}
+
+.be-volunteer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.be-volunteer-section img {
+    width: 50%;
+}
+
+.be-volunteer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 70%;
+    gap: 40px;
+}
+
+.be-volunteer-content p {
+    font-size: 1.25rem;
+    color: #007AC7;
+    text-align: start;
+    margin-bottom: 20px;
+    font-family: 'Inter-Regular';
+}
+
+
+
+.join-us-tittle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #007AC7;
+    margin-bottom: 20px;
+    text-align: start;
+    font-family: 'Inter-Bold';
+    font-size: 2.25rem;
+}
+
+.be-volunteer-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #007AC7;
+    text-align: start;
+    margin-bottom: 20px;
+    font-family: 'Inter-Regular';
+    font-size: 1.25rem;
+}
+
+.btn-be-volunteer {
+    color: #FFFFFF;
+    background-color: #007AC7;
+    font-family: 'Inter-Bold';
+    font-size: 0.875rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-be-volunteer:hover {
+    background-color: #049DD9;
+}
+
+.give-a-donation-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.give-a-donation-section img {
+    width: 50%;
+}
+
+.give-a-donation-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 70%;
+    gap: 40px;
+}
+
+.give-a-donation-tittle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #049DD9;
+    margin-bottom: 20px;
+    text-align: start;
+    font-family: 'Inter-Bold';
+    font-size: 2.25rem;
+}
+
+.give-a-donation-content p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #049DD9;
+    text-align: start;
+    margin-bottom: 20px;
+    font-family: 'Inter-Regular';
+    font-size: 1.25rem;
+}
+
+.btn-give-donation {
+    color: #FFFFFF;
+    background-color: #049DD9;
+    font-family: 'Inter-Bold';
+    font-size: 0.875rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-give-donation:hover {
+    background-color: #007AC7;
+}
+
+
+@media(max-width: 600px) {
+    .be-volunteer-section {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .be-volunteer-section img {
+        display: none;
+    }
+
+    .be-volunteer-content {
+        width: 100%;
+    }
+
+    .give-a-donation-section {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .give-a-donation-section img {
+        width: 70%;
+    }
+
+    .give-a-donation-content {
+        width: 100%;
+    }
+}

@@ -6,13 +6,13 @@ import { AppFirstSectionLandingPageComponent } from '../../components/app-first-
 import { AppSecondSectionLandingPageComponent } from '../../components/app-second-section-landing-page/app-second-section-landing-page.component';
 import { AppThirdSectionLandingPageComponent } from '../../components/app-third-section-landing-page/app-third-section-landing-page.component';
 import { AppFifthSectionLandingPageComponent } from '../../components/app-fifth-section-landing-page/app-fifth-section-landing-page.component';
-
+import { AppJoinUsSectionComponent } from '../../components/app-join-us-section/app-join-us-section.component';
 @Component({
   selector: 'app-landing-page',
   standalone: true,
   imports: [ CommonModule, AppHeaderLandingPageComponent, AppFirstSectionLandingPageComponent,
      AppSecondSectionLandingPageComponent, AppThirdSectionLandingPageComponent, 
-     AppFifthSectionLandingPageComponent,],
+     AppFifthSectionLandingPageComponent, AppJoinUsSectionComponent],
   providers: [ Router ],
   templateUrl: './landing-page.component.html',
   styleUrl: './landing-page.component.css'
