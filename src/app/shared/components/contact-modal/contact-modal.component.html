@@ -1,0 +1,41 @@
+<mat-dialog-content class="mat-typography">
+
+    <button class="close-button" mat-dialog-close>
+        <img src="../../../../assets/images/shared/close.svg" alt="close-button">
+    </button>
+
+    <form class="form-group" [formGroup]="contactForm">
+        <h2>Contato</h2>
+
+        <div class="input-container">
+            <label for="name">Nome Completo</label>
+            <input formControlName="name" type="text" class="form-control" id="name" placeholder="Digite seu Nome"
+                required>
+        </div>
+
+        <div class="input-container">
+            <label for="phoneNumber">Telefone</label>
+            <input formControlName="phoneNumber" type="text" class="form-control" id="phoneNumber"
+                placeholder="Digite um Telefone" required>
+        </div>
+
+        <div class="input-container">
+            <label for="email">Email</label>
+            <input formControlName="email" type="email" class="form-control" id="email"
+                placeholder="Digite um Email" required>
+        </div>
+
+        <div class="input-container">
+            <label for="exampleFormControlTextarea1">Mensagem</label>
+            <textarea formControlName="message" id="exampleFormControlTextarea1"
+                placeholder="Digite uma Mensagem" required></textarea>
+        </div>
+
+
+        <div class="button-container">
+            <button type="submit" class="cancel-button" mat-dialog-close>Cancelar</button>
+            <button (click)="submitForm()" class="send-button">Enviar</button>
+        </div>
+
+    </form>
+</mat-dialog-content>
