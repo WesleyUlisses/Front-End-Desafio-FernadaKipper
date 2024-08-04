@@ -1,0 +1,9 @@
+{
+    "/api": {
+      "target": "https://brasilapi.com.br",
+      "secure": false,
+      "changeOrigin": true,
+      "logLevel": "debug"
+    }
+  }
+  
