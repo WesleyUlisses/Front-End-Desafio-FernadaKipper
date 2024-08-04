@@ -1,0 +1,86 @@
+<mat-dialog-content class="mat-typography">
+
+    <button class="close-button" mat-dialog-close>
+        <img src="../../../../assets/images/shared/close.svg" alt="close-button">
+    </button>
+
+    <form class="form-group" [formGroup]="registerForm">
+        <h2>Cadastro no Serviço de alertas</h2>
+
+        <div class="input-container">
+            <label for="name">Nome Completo</label>
+            <input formControlName="name" type="text" class="form-control" id="name" placeholder="Digite seu Nome"
+                required>
+        </div>
+
+        <div class="input-container">
+            <label for="phoneNumber">Telefone</label>
+            <input formControlName="phoneNumber" type="text" class="form-control" id="phoneNumber"
+                placeholder="Digite um Telefone" required>
+        </div>
+
+        <div class="input-container">
+            <label for="email">Email</label>
+            <input formControlName="email" type="email" class="form-control" id="email"
+                placeholder="Digite um Email" required>
+        </div>
+
+        <div class="input-container">
+
+            <div class="input-container-one-row">
+                <div class="state-container">
+                    <label for="state">Estado</label>
+                    <select formControlName="state" id="state" class="form-control" required>
+                        <option *ngFor="let state of statesOfBrazil" [value]="state">{{state}}</option>
+                    </select>
+                </div>
+
+                <div class="city-container">
+                    <label for="city">Cidade</label>
+                    <input type="text" class="form-control" formControlName="city" id="city" readonly />
+                </div>
+            </div>
+
+        </div>
+
+        <div class="input-container">
+            <div class="input-container-one-row">
+                <div class="cep-container">
+                    <label for="cep">CEP</label>
+                    <input formControlName="cep" type="text" class="form-control" id="cep" placeholder="Digite um CEP"
+                    (change)="getAddresByCep()" required>   
+                </div>
+                <div class="neighborhood-container">
+                    <label for="neighborhood">Bairro</label>
+                    <input formControlName="neighborhood" type="text" class="form-control" id="neighborhood"
+                        placeholder="Digite um Bairro" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="button-container">
+            <button type="submit" class="cancel-button" mat-dialog-close>Cancelar</button>
+            <div id="button-container" class="button-container">
+                <button
+                  *ngIf="!btnIsLoading"
+                  id="send-button"
+                  class="send-button"
+                  (click)="submitForm()"
+                >
+                  Enviar
+                </button>
+                <button
+                  *ngIf="btnIsLoading"
+                  id="send-button"
+                  class="send-button loading"
+                  disabled
+        
+                  style="cursor: not-allowed;"
+                >
+                  <div class="spinner"></div>
+                </button>
+              </div>
+        </div>
+
+    </form>
+</mat-dialog-content>

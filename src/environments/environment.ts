@@ -1,6 +1,6 @@
 export const environment = {
   production: false,
-  apiUrl: 'https://api-email-services-dev.onrender.com/api/',
+  apiUrl: 'https://backend-desafio-fernandakipper.onrender.com',
   awsS3: {
     region: 'us-east-1',
     accessKeyId: 'accessKeyId',
@@ -10,9 +10,7 @@ export const environment = {
   },
   mercadoPagoPaymentRedirectUrl: 'link.mercadopago.com.br/wesleyulisses',
   mercadoPagoPublicKey: 'TEST-1b3b3b3b-1b3b-1b3b-1b3b-1b3b3b3b3b3b',
-  mercadoPagoBaseApiUrl: 'https://api.mercadopago.com'
+  mercadoPagoBaseApiUrl: 'https://api.mercadopago.com',
+  geolocationApiUrl: 'https://brasilapi.com.br/api',
 
 };
-
-//https://api-email-services-dev.onrender.com/api/
-//http://localhost:3003/api/

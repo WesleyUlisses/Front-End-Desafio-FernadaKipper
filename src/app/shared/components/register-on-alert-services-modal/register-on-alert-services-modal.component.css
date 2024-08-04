@@ -1,0 +1,271 @@
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("../../../../assets/fonts/Inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url("../../../../assets/fonts/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter-Medium";
+    src: url("../../../../assets/fonts/Inter-Medium.ttf") format("truetype");
+}
+
+* {
+    color: #2C3F47;
+    font-size: 14px;
+    font-family: "Inter-Medium";
+}
+
+.close-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+
+h2 {
+    font-family: "Inter-Bold";
+    font-size: 1.25rem;
+    color: #007AC7;
+    margin: 0 0 0px;
+}
+
+.mat-typography {
+    width: 30rem;
+    height: auto;
+    border-radius: 8px !important;
+}
+
+
+.form-control {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 16px;
+    border: 1px solid #2C3F47;
+    color: #2C3F47;
+}
+
+#exampleFormControlTextarea1{
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    padding-left: 16px;
+    border: 1px solid #2C3F47;
+    color: #2C3F47;
+    resize: none;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form-group input::placeholder {
+    color: #2C3F47;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    font-size: 14px;
+    font-family: "Inter-Medium";
+}
+
+.input-container label {
+    font-family: "Inter-Bold";
+    font-size: 16px;
+    color: #2C3F47;
+}
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 22px;
+    padding-right: 10px;
+
+}
+
+.send-button {
+
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #007AC7;
+    color: #fff;
+    font-family: "Inter-Bold";
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.spinner {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-top-color: #ffffff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    cursor: not-allowed;
+}
+
+@keyframes spin {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.send-button.loading {
+    color: transparent; /* Esconde o texto do botão enquanto carrega */
+}
+
+.cancel-button {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #2C3F47;
+
+    font-family: "Inter-Bold";
+    cursor: pointer;
+    border: 1px solid #2C3F47;
+}
+
+.input-radio-for-payment {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.input-container-one-row{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    font-size: 14px;
+    font-family: "Inter-Medium";
+}
+
+.cep-container{
+    width: 45%;
+}
+
+.neighborhood-container{
+    width: 45%;
+}
+
+.cep-container, .neighborhood-container{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    font-size: 14px;
+    font-family: "Inter-Medium";
+}
+
+
+.label-input-mock {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 14px;
+    font-family: "Inter-Medium";
+
+}
+
+#city {
+    color: #007AC7;
+    font-size: 16px;
+}
+
+
+@media (max-width: 768px) {
+    .mat-typography {
+        width: 100%;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .button-container {
+        justify-content: center;
+    }
+
+    .send-button {
+        width: 100%;
+    }
+
+    .cancel-button {
+        width: 100%;
+    }
+
+    .form-group {
+        gap: 15px;
+    }
+
+    .input-container {
+        gap: 5px;
+    }
+
+    .button-container {
+        gap: 15px;
+    }
+
+    .close-button {
+        top: 4px;
+        right: 4px;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    .form-group input::placeholder {
+        font-size: 12px;
+    }
+
+    .form-group label {
+        font-size: 14px;
+    }
+
+    .form-control {
+        height: 35px;
+    }
+
+    #exampleFormControlTextarea1{
+        height: 70px;
+    }
+
+    .send-button {
+        height: 35px;
+    }
+
+    .cancel-button {
+        height: 35px;
+    }
+
+    .button-container {
+        gap: 10px;
+    }
+
+}
