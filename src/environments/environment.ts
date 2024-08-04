@@ -12,5 +12,5 @@ export const environment = {
   mercadoPagoPublicKey: 'TEST-1b3b3b3b-1b3b-1b3b-1b3b-1b3b3b3b3b3b',
   mercadoPagoBaseApiUrl: 'https://api.mercadopago.com',
   geolocationApiUrl: 'https://brasilapi.com.br/api',
-
+  apoioEcoCriseRecieverEmail: 'apoioecocrise@labsif.com.br',
 };
