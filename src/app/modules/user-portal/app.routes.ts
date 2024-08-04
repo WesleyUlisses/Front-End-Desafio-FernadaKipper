@@ -10,7 +10,7 @@ import { DashboardChartsComponent } from '../../user-portal/views/home/dashboard
 import { LandingPageComponent } from '../../shared/views/landing-page/landing-page.component';
 import { SupportYouPageComponent } from '../../shared/views/support-you-page/support-you-page.component';
 import { BlogComponent } from '../../blog/views/blog/blog.component';
-import { PostViewComponent } from '../../blog/views/blog/post-view/post-view.component';
+import { PostViewComponent } from '../../blog/views/post-view/post-view.component';
 
 
 export const routes: Routes = [
@@ -27,14 +27,8 @@ export const routes: Routes = [
   },
   { path: 'new-password', component: NewPasswordScreenComponent },
   { path: 'apoio', component: SupportYouPageComponent },
-  {
-    path: 'blog', component: BlogComponent, children: [
-      {
-        path: 'post/:id',
-        component: PostViewComponent
-      }
-    ]
-  },
+  { path: 'blog', component: BlogComponent },
+  { path: 'blog/post/:id',component: PostViewComponent },
   {
     path: '**', redirectTo: ''
   }

@@ -1,0 +1,26 @@
+<div class="blog-view-post-first-part">
+    <h2 class="blog-view-post-title">{{ title }}</h2>
+    
+    <div class="blog-view-posts">
+        <div class="blog-view-posts_image">
+            <img [src]="image" alt="blog-view-posts_image" />
+        </div>
+        <div class="blog-view-posts_content">
+            <p>{{ description }}</p>
+        </div>
+    </div>
+    
+    <div class="share-button-container" (click)="coppyUrlToShare()">
+    
+        <button class="btn-share">
+            <img src="../../../../assets/images/shared/share.svg" alt="Share Icon">
+        </button>
+    
+        <h3 class="share-button-title" >
+            Compartilhar
+        </h3>
+    </div>
+</div>
+
+<div class="blog-view-post-first-part">
+</div>

@@ -1,6 +1,7 @@
 export const environment = {
   production: false,
   apiUrl: 'https://backend-desafio-fernandakipper.onrender.com',
+  frontendUrl: 'https://apoioecocrise.vercel.app',
   awsS3: {
     region: 'us-east-1',
     accessKeyId: 'accessKeyId',
