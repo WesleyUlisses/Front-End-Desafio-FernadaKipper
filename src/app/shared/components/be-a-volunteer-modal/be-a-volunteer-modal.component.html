@@ -34,7 +34,26 @@
 
         <div class="button-container">
             <button type="submit" class="cancel-button" mat-dialog-close>Cancelar</button>
-            <button (click)="submitForm()" class="send-button">Enviar</button>
+            <div id="button-container" class="button-container">
+                <button
+                  *ngIf="!btnIsLoading"
+                  id="send-button"
+                  class="send-button"
+                  (click)="submitForm()"
+                >
+                  Enviar
+                </button>
+                <button
+                  *ngIf="btnIsLoading"
+                  id="send-button"
+                  class="send-button loading"
+                  disabled
+        
+                  style="cursor: not-allowed;"
+                >
+                  <div class="spinner"></div>
+                </button>
+              </div>
         </div>
 
     </form>
