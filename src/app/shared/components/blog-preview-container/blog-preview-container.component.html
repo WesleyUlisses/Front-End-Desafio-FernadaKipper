@@ -1,0 +1,35 @@
+<div class="blog-preview-wrapper">
+
+    <div class="blog-preview-wrapper-part1">
+        <div class="blog-preview-header">
+            <h1>Blog</h1>
+            <img src="../../../../assets/images/landing page/bfr-azul-centro.svg" alt="Title Complement">
+        </div>
+        <div class="blog-preview-container">
+            <app-blog-preview-posts
+            *ngFor="let post of posts"
+            [id]="post.id"
+            [image]="post.image"
+            [title]="post.title"
+            [description]="post.description"
+        />
+        
+        </div>
+    </div>
+    
+    <div class="blog-preview-wrapper-part2">
+        <div class="buttons-container">
+            <button class="btn-left-direction">
+                <
+            </button>
+        
+            <button class="btn-view-more">
+                Veja Mais Artigos
+            </button>
+        
+            <button class="btn-right-direction">
+                >
+            </button>
+        </div>
+    </div>
+</div>
