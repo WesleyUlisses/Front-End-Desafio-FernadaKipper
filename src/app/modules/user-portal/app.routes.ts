@@ -10,6 +10,7 @@ import { DashboardChartsComponent } from '../../user-portal/views/home/dashboard
 import { LandingPageComponent } from '../../shared/views/landing-page/landing-page.component';
 import { SupportYouPageComponent } from '../../shared/views/support-you-page/support-you-page.component';
 import { BlogComponent } from '../../blog/views/blog/blog.component';
+import { PostViewComponent } from '../../blog/views/blog/post-view/post-view.component';
 
 
 export const routes: Routes = [
@@ -17,20 +18,24 @@ export const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: 'forgot-password', component: ForgotPasswordComponent },
   { path: '', component: LandingPageComponent },
-  { path: 'home', canActivate: [authGuard], children: [
-    { path: '', component: HomeComponent },
-    { path: 'profile', component: ProfileComponent },
-    { path: 'dashboard-charts', component: DashboardChartsComponent}
-  ]
+  {
+    path: 'home', canActivate: [authGuard], children: [
+      { path: '', component: HomeComponent },
+      { path: 'profile', component: ProfileComponent },
+      { path: 'dashboard-charts', component: DashboardChartsComponent }
+    ]
   },
   { path: 'new-password', component: NewPasswordScreenComponent },
-  {path: 'apoio', component: SupportYouPageComponent },
-  {path: 'blog', component: BlogComponent, children: [
-    {
-      path: 'post/:id',
-      component: BlogComponent
-    }  
-  ]
+  { path: 'apoio', component: SupportYouPageComponent },
+  {
+    path: 'blog', component: BlogComponent, children: [
+      {
+        path: 'post/:id',
+        component: PostViewComponent
+      }
+    ]
+  },
+  {
+    path: '**', redirectTo: ''
   }
- 
 ];
