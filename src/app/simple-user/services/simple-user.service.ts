@@ -12,6 +12,6 @@ export class SimpleUserService {
   constructor(private http: HttpClient ) { }
 
   createUserToAlertService(user: IUserRegistrationData): Observable<any> {
-    return this.http.post<IUserRegistrationData>(`${environment.apiUrl}user/create-user`, user);
+    return this.http.post<IUserRegistrationData>(`${environment.apiUrl}/user/create-user`, user);
   }
 }
