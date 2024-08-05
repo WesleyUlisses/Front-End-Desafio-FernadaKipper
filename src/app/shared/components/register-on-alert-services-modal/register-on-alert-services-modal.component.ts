@@ -190,7 +190,7 @@ export class RegisterOnAlertServicesModalComponent {
         this.enableInputFieldAfterSubmit();
 
       }).catch((error: HttpErrorResponse) => {
-        this.toastr.showError('Erro ao enviar email', 'Error');
+        this.toastr.showError('Erro ao realizar seu cadastro, tente mais tarde, por favor', 'Error');
         this.disableLoadingIndicator();
         this.enableInputFieldAfterSubmit();
       });
