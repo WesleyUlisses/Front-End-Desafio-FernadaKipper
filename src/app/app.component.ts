@@ -7,6 +7,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
 import { HeaderHomeComponent } from './user-portal/components/header-home/header-home.component';
 import { SideBarComponent } from './user-portal/components/side-bar/side-bar.component';
+import { ChatBotModalComponent } from './shared/components/chat-bot-modal/chat-bot-modal.component';
 
 @Component({
   selector: 'app-root',
@@ -18,7 +19,8 @@ import { SideBarComponent } from './user-portal/components/side-bar/side-bar.com
     ReactiveFormsModule,
     RouterModule,
     SideBarComponent,
-    HeaderHomeComponent
+    HeaderHomeComponent,
+    ChatBotModalComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

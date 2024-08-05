@@ -14,8 +14,8 @@ import { HttpErrorResponse, HttpResponse } from '@angular/common/http';
 @Component({
   selector: 'app-forgot-password',
   standalone: true,
-  imports: [InputLoginComponent, ButtonComponent, ReactiveFormsModule],
-  providers: [ForgotPasswordService, ToastrNotificationService],
+  imports: [ InputLoginComponent, ButtonComponent, ReactiveFormsModule ],
+  providers: [ ForgotPasswordService, ToastrNotificationService ],
   templateUrl: './forgot-password.component.html',
   styleUrl: './forgot-password.component.css',
 })

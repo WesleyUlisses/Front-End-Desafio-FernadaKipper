@@ -1,0 +1,17 @@
+<div class="modal" *ngIf="isOpen">
+    <div class="modal-content">
+        <span class="close" (click)="closeModal()">&times;</span>
+        <div class="chat-container">
+            <div class="messages" #scrollMe>
+                <div *ngFor="let message of resultados"
+                    [ngClass]="{'user-message': message.remetente === 'eu', 'bot-message': message.remetente === 'boot'}">
+                    {{message.mensagem}}
+                </div>
+            </div>
+            <div class="input-container">
+                <input [(ngModel)]="msg" (keyup.enter)="sendMessage()" placeholder="Type your message...">
+                <button (click)="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+</div>

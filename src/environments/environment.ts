@@ -14,4 +14,5 @@ export const environment = {
   mercadoPagoBaseApiUrl: 'https://api.mercadopago.com',
   geolocationApiUrl: 'https://brasilapi.com.br/api',
   apoioEcoCriseRecieverEmail: 'apoioecocrise@labsif.com.br',
+  dialogflowapi: 'https://dialogflow.cloud.google.com/v1/integrations',
 };
