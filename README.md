@@ -110,42 +110,58 @@ export const environment = {
   dialogflowapi: 'https://dialogflow.cloud.google.com/v1/integrations',
 };
 ```
-  
-  <h1>Documentação e Manuais de Uso</h1>
+# Documentação e Manuais de Uso
 
-  <h2>Guia de Uso da Aplicação</h2>
-  <p>Abaixo estão os links para documentação externa que explica detalhadamente como utilizar as principais funcionalidades da nossa aplicação. Clique nos links para acessar os guias completos.</p>
+## Guia de Uso da Aplicação
 
-  <h3>Como Fazer o Cadastro na Parte de Monitoramento e Notificação para Desastres</h3>
-  <p>Para se cadastrar e começar a receber notificações sobre riscos climáticos como enchentes e queimadas, siga o guia abaixo:</p>
-  <a href="https://scribehow.com/shared/Como_fazer_o_cadastro_de_monitoramento_e_notificacao_para_desastres__LuUzxNUARG6HTECp6qt8cw" target="_blank">Como fazer o cadastro de monitoramento e notificação para desastres</a>
+Abaixo estão os links para documentação externa que explica detalhadamente como utilizar as principais funcionalidades da nossa aplicação. Clique nos links para acessar os guias completos.
 
-  <h3>Como Entrar em Contato com a Equipe de Voluntários</h3>
-  <p>Se você deseja se tornar um voluntário ou precisa entrar em contato com nossa equipe de voluntários, consulte o link abaixo:</p>
-  <a href="https://scribehow.com/shared/Como_entrar_em_contato_com_a_equipe_de_voluntarios__jz6qWtmXQdaqcEVBxDkJyw" target="_blank">Como entrar em contato com a equipe de voluntários</a>
+### Como Fazer o Cadastro na Parte de Monitoramento e Notificação para Desastres
 
-  <h3>Como Obter um Número para Chamadas com os Voluntários</h3>
-  <p>Para obter um número de telefone para entrar em contato com nossos voluntários, veja o guia abaixo:</p>
-  <a href="https://scribehow.com/shared/Como_obter_um_numero_para_chamadas_com_os_voluntarios__ABawjik2R9i_fQFNRHeMzg" target="_blank">Como obter um número para chamadas com os voluntários</a>
+Para se cadastrar e começar a receber notificações sobre riscos climáticos como enchentes e queimadas, siga o guia abaixo:
 
-  <h3>Quero Doar, Como Fazer?</h3>
-  <p>Para saber como fazer uma doação e contribuir com nosso projeto, acesse o link abaixo:</p>
-  <a href="https://scribehow.com/shared/Quero_fazer_uma_doacao__033rTSUXTCGvreZSynJypQ" target="_blank">Quero fazer uma doação</a>
+- [Como fazer o cadastro de monitoramento e notificação para desastres](https://scribehow.com/shared/Como_fazer_o_cadastro_de_monitoramento_e_notificacao_para_desastres__LuUzxNUARG6HTECp6qt8cw)
 
-  <h3>Como Acessar o Chatbot para Me Ajudar em Momentos de Crise?</h3>
-  <p>Nos momentos de crise, nosso chatbot está disponível para fornecer suporte imediato. Veja como acessá-lo:</p>
-  <a href="https://scribehow.com/shared/Como_acessar_o_chatbot_para_ajuda_em_momentos_de_crise__E0VjebQiTOik5Ybegy35nQ" target="_blank">Como acessar o chatbot para ajuda em momentos de crise</a>
+### Como Entrar em Contato com a Equipe de Voluntários
 
-  <h3>Como Agendar uma Sessão de Acolhimento com Voluntários da Plataforma?</h3>
-  <p>Para agendar uma sessão de acolhimento psicológico com nossos voluntários, siga o guia abaixo:</p>
-  <a href="https://scribehow.com/shared/Como_agendar_uma_sessao_de_acolhimento_com_voluntarios_da_plataforma__vlQLtFLSQ-a3ok0QUHvlng" target="_blank">Como agendar uma sessão de acolhimento com voluntários da plataforma</a>
+Se você deseja se tornar um voluntário ou precisa entrar em contato com nossa equipe de voluntários, consulte o link abaixo:
 
-  <h3>Como Entrar em Contato para Tornar-se Voluntário</h3>
-  <p>Se você deseja se tornar um voluntário e fazer parte da nossa equipe, consulte o link abaixo:</p>
-  <a href="https://scribehow.com/shared/Entrar_Em_Contato_Para_Tornar-se_Voluntário__Crv1EQefTAyTHEvS1RMQ3A" target="_blank">Entrar Em Contato Para Tornar-se Voluntário</a>
+- [Como entrar em contato com a equipe de voluntários](https://scribehow.com/shared/Como_entrar_em_contato_com_a_equipe_de_voluntarios__jz6qWtmXQdaqcEVBxDkJyw)
 
-  <h2>Informações Adicionais</h2>
-  <p>Esses links direcionam você para guias detalhados que explicam passo a passo como utilizar cada funcionalidade da nossa aplicação. Caso tenha mais dúvidas, não hesite em entrar em contato conosco através dos meios fornecidos.</p>
+### Como Obter um Número para Chamadas com os Voluntários
+
+Para obter um número de telefone para entrar em contato com nossos voluntários, veja o guia abaixo:
+
+- [Como obter um número para chamadas com os voluntários](https://scribehow.com/shared/Como_obter_um_numero_para_chamadas_com_os_voluntarios__ABawjik2R9i_fQFNRHeMzg)
+
+### Quero Doar, Como Fazer?
+
+Para saber como fazer uma doação e contribuir com nosso projeto, acesse o link abaixo:
+
+- [Quero fazer uma doação](https://scribehow.com/shared/Quero_fazer_uma_doacao__033rTSUXTCGvreZSynJypQ)
+
+### Como Acessar o Chatbot para Me Ajudar em Momentos de Crise?
+
+Nos momentos de crise, nosso chatbot está disponível para fornecer suporte imediato. Veja como acessá-lo:
+
+- [Como acessar o chatbot para ajuda em momentos de crise](https://scribehow.com/shared/Como_acessar_o_chatbot_para_ajuda_em_momentos_de_crise__E0VjebQiTOik5Ybegy35nQ)
+
+### Como Agendar uma Sessão de Acolhimento com Voluntários da Plataforma?
+
+Para agendar uma sessão de acolhimento psicológico com nossos voluntários, siga o guia abaixo:
+
+- [Como agendar uma sessão de acolhimento com voluntários da plataforma](https://scribehow.com/shared/Como_agendar_uma_sessao_de_acolhimento_com_voluntarios_da_plataforma__vlQLtFLSQ-a3ok0QUHvlng)
+
+### Como Entrar em Contato para Tornar-se Voluntário
+
+Se você deseja se tornar um voluntário e fazer parte da nossa equipe, consulte o link abaixo:
+
+- [Entrar Em Contato Para Tornar-se Voluntário](https://scribehow.com/shared/Entrar_Em_Contato_Para_Tornar-se_Voluntário__Crv1EQefTAyTHEvS1RMQ3A)
+
+## Informações Adicionais
+
+Esses links direcionam você para guias detalhados que explicam passo a passo como utilizar cada funcionalidade da nossa aplicação. Caso tenha mais dúvidas, não hesite em entrar em contato conosco através dos meios fornecidos.
+
 
 ## Servidor de Desenvolvimento
 
