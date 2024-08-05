@@ -26,7 +26,7 @@ import { ChatBotModalComponent } from './shared/components/chat-bot-modal/chat-b
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'enviei';
+  title = 'apoioecocrise';
 
   constructor() {}
 
