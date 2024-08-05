@@ -83,15 +83,10 @@ export class GiveADonationModalComponent {
     this.saveInformations();
   }
 
-  saveInformations() : Promise<void> {
+  saveInformations()  {
+    this.toastr.showSuccess('Informações salvas com sucesso', 'Success');
 
-    return new Promise((resolve, reject) => {
-
-      resolve(this.toastr.showSuccess('Email enviado com sucesso', 'Success'));
-      reject(this.toastr.showError('Erro ao enviar email', 'Error'));
-
-
-    });
+    this.goToDonationPage();
   }
 
 
@@ -104,6 +99,13 @@ export class GiveADonationModalComponent {
       return;
     }
 
+    if (typeof window !== 'undefined') {
+      // Usar window.open para abrir a URL em uma nova guia
+      window.open(urlToDonate, '_blank');
+    }
+
     this.router.navigateByUrl(urlToDonate);
+
+    this.dialog.closeAll();
   }
 }

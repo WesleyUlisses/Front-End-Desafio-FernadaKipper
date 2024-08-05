@@ -13,7 +13,7 @@ export class EmailService {
   constructor(private http: HttpClient ) { }
 
   sendEmail( email: IEmail ): Observable<any> {
-    return this.http.post(`${environment.apiUrl}/email/send`, email);
+    return this.http.post(`${environment.apiUrl}/email/send-email`, email);
   }
   
 }

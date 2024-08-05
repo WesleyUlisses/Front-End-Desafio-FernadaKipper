@@ -1,6 +1,6 @@
 export const environment = {
   production: false,
-  apiUrl: 'https://backend-desafio-fernandakipper.onrender.com',
+  apiUrl: 'https://backend-desafio-fernandakipper-phr6.onrender.com',
   frontendUrl: 'https://apoioecocrise.vercel.app',
   awsS3: {
     region: 'us-east-1',
@@ -9,7 +9,7 @@ export const environment = {
     bucketName: 'bucketName',
     endpoint: 'endpoint',
   },
-  mercadoPagoPaymentRedirectUrl: 'link.mercadopago.com.br/wesleyulisses',
+  mercadoPagoPaymentRedirectUrl: 'https://link.mercadopago.com.br/wesleyulisses',
   mercadoPagoPublicKey: 'TEST-1b3b3b3b-1b3b-1b3b-1b3b-1b3b3b3b3b3b',
   mercadoPagoBaseApiUrl: 'https://api.mercadopago.com',
   geolocationApiUrl: 'https://brasilapi.com.br/api',
